@@ -60,6 +60,7 @@ print(t)
 
 TensorFlow Core Learning Algorithms
 1. Linear Regression (predict numeric values)
+    Line of Best Fit - refers to a line through a scatter plot of data points that best expresses the relationship between those points.
 2. Classification
 3. Clustering
 4. Hidden Markov Models
