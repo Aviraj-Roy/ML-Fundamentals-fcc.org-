@@ -58,9 +58,20 @@ t = tf.reshape(t, [625])
 print(t)
 
 
+__**DAY 2**__
+
 TensorFlow Core Learning Algorithms
 1. Linear Regression (predict numeric values)
     Line of Best Fit - refers to a line through a scatter plot of data points that best expresses the relationship between those points.
 2. Classification
 3. Clustering
 4. Hidden Markov Models
+
+Data (Titanic Data Set) - has tons of information about each passenger on the ship.
+#Code of Load Dataset.
+dftrain = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/train.csv') #training data
+dfeval = pd.read_csv('https://torage.googleapis.com/tf-datasets/titanic/eval.csv') #testing data
+y_train = dftrain.pop('survived')
+y_eval = dfeval.pop('survived')
+
+the "pd.read_csv()" method will return to us a new pandas dataframe.
