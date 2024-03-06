@@ -69,9 +69,21 @@ TensorFlow Core Learning Algorithms
 
 Data (Titanic Data Set) - has tons of information about each passenger on the ship.
 #Code of Load Dataset.
-dftrain = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/train.csv') #training data
-dfeval = pd.read_csv('https://torage.googleapis.com/tf-datasets/titanic/eval.csv') #testing data
+dftrain = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/train.csv')
+dfeval = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/eval.csv')
 y_train = dftrain.pop('survived')
 y_eval = dfeval.pop('survived')
 
 the "pd.read_csv()" method will return to us a new pandas dataframe.
+To Find one specific dataframe, use <database_name>.loc[i]
+What does the panda.head() function do?
+Shows us the first 5 entries(rows)
+
+
+__**DAY 3**__
+
+Training DataSet - feed to the model so that it can develop and learn. Usually much larger sizr than the testing data.
+Testing DataSet - used to evaluate the model and see the performance. P.S:- Different dataset to be used.
+Feature Columns
+    1. Categorical Data
+    2. Numeric Data
