@@ -87,3 +87,18 @@ Testing DataSet - used to evaluate the model and see the performance. P.S:- Diff
 Feature Columns
     1. Categorical Data
     2. Numeric Data
+
+
+__**DAY 4**__
+
+Small batches of 32.
+Feed the data points from dataset according to the number of epochs.
+Epoch - One stream of our entire dataset.
+No. of epochs we define is the amount of times our model will see the entire dataset. Use multiple epochs  for more accuracy but it'll take longer time.
+Overfeeding - Pass too much training data, memorizes it. Horrible for testing data.
+Input Function -  A way to feed in the data into TF, how to break into epochs
+
+
+__**DAY 5**__
+Generally, model data is streamed in small batches of 32.
+
