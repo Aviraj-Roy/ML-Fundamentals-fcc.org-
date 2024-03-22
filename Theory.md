@@ -102,3 +102,46 @@ Input Function -  A way to feed in the data into TF, how to break into epochs
 __**DAY 5**__
 Generally, model data is streamed in small batches of 32.
 
+
+__**DAY 6**__
+Classification - differentiating into data points and data classes.
+Where regression was used to predict a numeric value, classification is used to spearate data points into claases of different labels.
+
+This specific dataset is separates flowers into 3  different species:
+1. Setosa
+2. Versicolor
+3. Virginica
+
+The information about each flower is the following:
+1. Sepal Length
+2. Sepal Width
+3. Petal Length
+4. Petal Width
+
+
+__**DAY 7**__
+A. Building the Model
+Some variety of estimators/models are:-
+1. DNNClassifier (Deep Neural Network)
+2. LinearClasssifier (pre-made model)
+    We get labels instead of numeric values like in Linear Regression
+
+Code:- 
+#Build a DNN with 2 hidden layers with 30 and 10 hidden nodes each
+classifier = tf.estimator.DNNClassifier(
+    feature_columns=my_feature_columns,
+    #Two Hidden Layers of 30 and 10 nodes respectively.
+    hidden_units = [30, 10],
+    #The model must choose between 3 classes
+    n_classes=3)
+
+B. Training the model
+Code:-
+classifier.train(
+    input_fn=lambda: input_fn(train, train_y, training=True),
+    steps = 5000
+)
+#We include a lambda to avoid creating an inner function previously
+
+Lambda is an ANONYMOUS Function
+Here, lambda is used to create the inner function in one line for the outer function.
