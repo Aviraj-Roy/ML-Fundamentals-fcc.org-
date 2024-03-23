@@ -11,8 +11,9 @@ Neural Network - A form of machine learning that uses a layered representation o
 Features -> Input to the model
 Label -> Output to the model
 
-Tensor - vector(a data point) generalized to a higher dimension.
-A tensor is a generalization  of vectors and matrices to n-dimensional structures. Internally, TensorFlow represents tensors as n-dimensional arrays of vase datatypes.
+Tensor -> vector(a data point) generalized to a higher dimension.
+A tensor is a generalization  of vectors and matrices to n-dimensional structures.
+Internally, TensorFlow represents tensors as n-dimensional arrays of vase datatypes.
 Each tensor represents a partially defined computation that will eventually produce a value.
 Each tensor has a data type and a shape.
 Data Types:- float32, int32, strings and others.
@@ -168,7 +169,3 @@ To create a HMM, we need:-
 ~States
 ~Observation Distribution
 ~Transition Distribution
-
-
-__**DAY 9**__
-A. Neural Networks with TensorFlow
