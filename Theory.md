@@ -145,3 +145,30 @@ classifier.train(
 
 Lambda is an ANONYMOUS Function
 Here, lambda is used to create the inner function in one line for the outer function.
+
+
+__**DAY 8**__
+A. Clustering
+Involves grouping of data points. Data points are in same group should have similar porperties and/or features.
+Basic Algorithm:- 
+~1. Randomly pick K points to place K centroids.
+~2. Assign all of the data points to the centrods by distance. The closed centroid to a point is the one it is assigned to.
+~3. Average all of the points belonging to each centroid to find the middle of those clusters. Place the corresponding centroids into that position.
+~4. Reassign every point once again to the closest centroid.
+~5. Repeat steps 3-4 until no point changes which centroid it belongs to.
+
+B. Hidden Markov Models
+Finite set of states, each of which is associated with a (generally multidimensional) probability distribution[].
+Transitions mong the states are governed by a set of proobabilities called transiotion probabilities.
+A HMM works with probailities to predict future events or states.
+States: In each markov model we have a finite set of states. They could be something like "warm" and "cold". They are "hidden" within the model, which means we dont directly observe them.
+Observations: Each state has a particular outcome or observation associated with it based on a probability distribution.
+Transitions: Each state will have a probability defining the likelihood of transitioning to a different state.
+To create a HMM, we need:-
+~States
+~Observation Distribution
+~Transition Distribution
+
+
+__**DAY 9**__
+A. Neural Networks with TensorFlow
