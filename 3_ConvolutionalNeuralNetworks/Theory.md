@@ -29,3 +29,26 @@ Feature Maps:
 Layer Parameters: 2 Key Parameters
 1. Filters - A m*n pattern of pixels that we are looking for in an image. No. of filters in a convnet represents how many patterns each layer is looking for and what the depth of our response map will be. 
 2. Stride: The number of pixels by which the filter moves each time it is applied to the input data. A larger stride results in a smaller output feature map, while a smaller stride results in a larger output feature map.
+
+
+__**DAY 12**__
+
+Concept of Padding
+Padding is a concept in deep learning, specifically in the context of convolutional neural networks (CNNs), that refers to the addition of extra pixels around the edges of an image before it is passed through a convolutional layer. The purpose of padding is to preserve the spatial dimensions of the input data as it passes through the network, which can help to prevent the loss of important information and improve the performance of the model.
+There are two common types of padding used in CNNs:
+1. Valid padding: This is the default padding mode in most deep learning frameworks, and it does not add any extra pixels to the input data. This means that the spatial dimensions of the input data will be reduced as it passes through the convolutional layer.
+2. Same padding: This padding mode adds extra pixels around the edges of the input data so that the spatial dimensions of the output data are the same as the input data. This can help to preserve the spatial information in the input data and improve the performance of the model.
+Padding is an important concept to understand when working with CNNs, as it can have a significant impact on the performance of the model. By adding padding to the input data, we can help to preserve the spatial dimensions of the data and improve the model's ability to extract useful features from the data.
+
+Concept of Pooling
+Pooling is a type of downsampling technique used in convolutional neural networks (CNNs) to reduce the spatial dimensions of the input data while retaining the most important information. This helps to reduce the computational complexity of the model and prevent overfitting. 
+There are three main types of pooling used in CNNs:
+1. Max pooling: This type of pooling takes the maximum value from a small neighborhood of the input data and uses it as the output. This helps to preserve the most important features of the input data and reduce the spatial dimensions.
+2. Average pooling: This type of pooling takes the average value from a small neighborhood of the input data and uses it as the output. This helps to preserve the overall distribution of the input data and reduce the spatial dimensions.
+3. Global pooling: This type of pooling is applied to the entire feature map, reducing it to a single value. This is often used in the final layers of a CNN to reduce the spatial dimensions to a single value, which can then be used as input to a fully connected layer.
+#Min Pooling also present, not confirmed.
+Pooling is an important concept to understand when working with CNNs, as it can help to reduce the computational complexity of the model and prevent overfitting. By downsampling the input data, we can reduce the spatial dimensions while retaining the most important information, which can help to improve the performance of the model.
+
+Q. Three main properties of each convolutional layer
+Ans:- Input Size, No. of filters, Sample size of the filters
+
