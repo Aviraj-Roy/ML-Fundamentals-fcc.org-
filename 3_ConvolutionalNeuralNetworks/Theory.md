@@ -52,3 +52,19 @@ Pooling is an important concept to understand when working with CNNs, as it can 
 Q. Three main properties of each convolutional layer
 Ans:- Input Size, No. of filters, Sample size of the filters
 
+Working with Small Datasets
+- Data Augmentation
+To avoid overfitting and create a larger dataset from a smaller one, technique used is called Data Augmentation. Perform random transformations on our images  so that model can generalize better. These transformations can be things like compressions, rotations, stretched and even color changes.
+
+
+__**DAY 13**__
+
+Pretrained Models
+Using a pretrained CNN as a part of our own custom network to imporve the accuracy of the model, giving a good convolutional base.
+
+Fine Tuning
+In this technique, we tweak the final layers in the convolutional base to work better for our specific problem. This involves only adjusting the final few layers, and not touching/retraining the earlier layers. 
+
+
+__**DAY 14**__
+Freezing - refers to disabling the training property of a layer. We wont make any changes to the weights of any layers that are frozen during training.
