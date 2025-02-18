@@ -1,3 +1,5 @@
+Link:- https://colab.research.google.com/drive/15Cyy2H7nT40sGR7TBN5wBvgTd57mVKay#forceEdit=true&sandboxMode=true
+
 __**DAY 1**__
 
 AI - The effort to automate intellectual tasks normally peformed by humans. Predefined set of rules.

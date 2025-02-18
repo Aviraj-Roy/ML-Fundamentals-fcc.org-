@@ -1,3 +1,5 @@
+https://colab.research.google.com/drive/1m2cg3D1x3j5vrFc-Cu0gMvc48gWyCOuG#forceEdit=true&sandboxMode=true
+
 __**DAY 9**__
 A. Neural Networks with TensorFlow
 Input, Hidden, Output & Bias connected to Hidden and another Bias to Output but not to each other.

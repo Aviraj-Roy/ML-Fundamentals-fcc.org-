@@ -1,3 +1,5 @@
+https://colab.research.google.com/drive/1ZZXnCjFEOkp_KdNcNabd14yok0BAIuwS#forceEdit=true&sandboxMode=true
+
 __**DAY 11**__
 
 A. Deep Computer Vision
